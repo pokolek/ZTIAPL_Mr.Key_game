@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mr. Key</title>
+  <meta charset="utf-8" />
+  <link href="style.css" rel="stylesheet" />
+  <script src="js/gameobject.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/key.js"></script>
+  <script src="js/water.js"></script>
+  <script src="js/fire.js"></script>
+  <script src="js/block.js"></script>
+  <script src="js/level1.js"></script>
+  <script src="js/level2.js"></script>
+  <script src="js/level3.js"></script>
+  <script src="js/platforma.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/finish.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+  
+</head>
+
+<body>
+
+  <div id="menu">
+    <div id="obsahMenu">
+      <div class="menuButton" onclick="nova()"><b>Start Game</b></div>
+      <div class="menuButton" onclick="credits()"><b>Credits</b></div>
+      <div class="menuButton" onclick="window.close()"><b>Exit</b></div>
+    </div>
+    <div id="controls">
+        <div class="controlButton"><img id="imgSound" src="./textures/soundoff.png" onclick="sound()"></div>
+        <div class="controlButton"><img src="./textures/controls.png" onclick="controls()"></div>
+    </div>
+  </div>
+
+
+
+  <div id="credits">
+      <div id="obsahCredits">
+        <div class="menuButton" onclick="hlavne()"><b>Main menu</b></div>
+      </div>
+  </div>
+
+
+
+  <div id="controlsScreen">
+      <div id="obsahCredits">
+        <div class="menuButton" onclick="hlavne()"><b>Main menu</b></div>
+      </div>
+  </div>
+
+
+  <div id="gameOver">
+      <div id="GOButton">
+        <div class="menuButton" onclick="gotomenu()"><b>Main menu</b></div>
+      </div>
+  </div>
+
+  <div id="winScreen">
+      <div id="GOButton">
+        <div class="menuButton" onclick="gotomenu()"><b>Main menu</b></div>
+      </div>
+  </div>
+
+  <canvas id="canvas" height="600" width="800"></canvas>
+
+  <div id="gameBar">
+    <div id="gameBarElement">
+      <div id="gameBarButton" onclick="gotomenu()"><b>Menu</b></div>
+      <h1 id="nadpis">Level 1</h1>
+      <img id="zivot1" src="textures/life.png">
+      <img id="zivot2" src="textures/life.png">
+      <img id="zivot3" src="textures/life.png">
+    </div>
+
+  </div>
+
+
+
+  <audio id="zvuk" loop autoplay muted>
+    <source src="./music/menu.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="skok" muted>
+    <source src="./music/effects/jump.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="click" muted>
+    <source src="./music/effects/click.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="key" muted>
+    <source src="./music/effects/key.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="pass" muted>
+    <source src="./music/effects/pass.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="kill" muted>
+    <source src="./music/effects/kill.mp3" type="audio/mpeg">
+  </audio>
+
+  <img id="platforma" src="img/platforma.png" hidden="true" />
+  <img id="water" src="img/water1.png" hidden="true" />
+</body>
+
+</html>

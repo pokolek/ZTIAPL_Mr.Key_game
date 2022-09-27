@@ -1,0 +1,215 @@
+html,body{
+	margin: 0 ! important;
+}
+
+
+#menu{
+	display: block;
+	height: 600px;
+	width: 800px;
+	background: url("./backgrounds/menu.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#obsahMenu{
+	display: inline-block;
+	position: relative;
+	left: 300px;
+	top: 200px;
+	width: 200px;
+	height: 350px;
+}
+
+
+#controls{
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	padding: 10px;
+}
+.controlButton{
+	margin-left: 20px;
+	background: blue;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 10px;
+	width: 40px;
+	height: 40px;
+}
+.controlButton img{
+	width: 40px;
+	height: 40px;
+}
+.controlButton:hover{
+	background: DeepSkyBlue;
+	cursor: pointer;
+}
+
+
+.menuButton{
+	display: block;
+	background: yellow;
+	border-radius: 10px;
+	width: 90%;
+	height: 30px;
+	margin: 10px auto;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: none;
+}
+.menuButton:hover{
+	background: orange;
+	cursor: pointer;
+}
+#credits{
+	display: none;
+	height: 600px;
+	width: 800px;
+	background: url("./backgrounds/credits.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#obsahCredits{
+	display: inline-block;
+	position: relative;
+	left: 300px;
+	top: 500px;
+	width: 200px;
+	height: 350px;
+}
+
+#controlsScreen{
+	display: none;
+	height: 600px;
+	width: 800px;
+	background: url("./backgrounds/controls.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#gameOver{
+	display: none;
+	height: 600px;
+	width: 800px;
+	background: url("./backgrounds/gameover.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#GOButton{
+	display: inline-block;
+	position: relative;
+	left: 550px;
+	top: 500px;
+	width: 200px;
+	height: 350px;
+}
+
+#winScreen{
+	display: none;
+	height: 600px;
+	width: 800px;
+	background: url("./backgrounds/winscreen.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#gameBar{
+	display: none;
+	position: absolute;
+	width: 800px;	
+	height: 50px;
+	top: 0;
+}
+#gameBar img{
+	position: relative;
+    right: 0;
+    margin-top: 10px; 
+    width: 40px;
+    left: 630px;
+}
+
+#gameBarButton{
+	display: inline-block;
+	background: yellow;
+	border-radius: 10px;
+	height: 30px;
+	margin: 10px auto;
+	margin-left: 10px;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: none;
+	position: absolute;
+	padding: 5px;
+
+}
+
+#gameBarButton:hover{
+	background: orange;
+	cursor: pointer;
+}
+
+#gameBarElement h1{
+	color: white;
+	top: 0;
+	display: inline-block;
+	left: 320px;
+	margin: 0;
+	border-radius: 10px;
+	height: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 40px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: none;
+	position: absolute;
+}
+
+#gameBarElement{
+	top: 0;
+	width: 800px;
+	position: absolute;
+	display: inline-block;
+}
+
+#zivot1{
+	display: inline-block;
+}
+
+#zivot2{
+	display: inline-block;
+}
+
+#zivot3{
+	display: inline-block;
+}
